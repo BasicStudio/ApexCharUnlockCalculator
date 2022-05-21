@@ -1,0 +1,37 @@
+body{
+    background-color: maroon;
+    color: antiquewhite;
+    font-size: large;
+    text-shadow: -2px 2px black;
+}
+div {
+    background-color: crimson;
+    background-image: url(apex-logo.png);
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+
+}
+#input{
+    color: antiquewhite;
+    font-size: large;
+    text-shadow: -2px 2px black;
+    background-color:darkred;
+    border-width: 2px;
+    width: 180px;
+    height: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(68, 0, 0);
+}
+#submit{
+    text-shadow: -2px 2px black;
+    background-color:limegreen;
+    color: antiquewhite;
+    font-size: large;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 68, 0);
+    width: 100px;
+    height: 30px;
+}
