@@ -10,7 +10,25 @@
                 <input id="input"><button id="submit" onclick="submit()">Submit</button>
                 <p><b id="result">Result: </b></p>
             </center>
-            <script src="/index.js"></script>
+            <script type="text/javascript">
+                var result = document.getElementById("result")
+
+                function getInput(){
+                    const input = document.getElementById("input")
+                    return input.value
+                }
+                function submit(){
+                    let input = getInput();
+                    input = parseFloat(input)
+                    if(isNaN(parseFloat(input))){
+                        alert("ENTER A NUMBER")
+                    } else {
+                        input = input + 400
+                        input = input / 600
+                        result.innerText = "Result: " + input + " Levels Intil Next Character"
+                    }
+                }
+            </script>
         </div>
     </body>
 </html>
